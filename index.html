@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukowski
+    </title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .fixedButton {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            padding: 20px;
+        }
+
+        .button {
+            background-color: rgb(234, 235, 230);
+            border: 1px solid #333;
+            color: #333;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body style="background-color:rgb(234,235,230);">
+    <center>
+        <h1>Notes of a Dirty Old Man</h1>
+        <div id="titleDisplay" style="font-family: 'Courier New', Courier, monospace; font-weight: bold;">
+
+        </div>
+        <pre id="quoteDisplay" style="font-family: 'Courier New', Courier, monospace;">
+
+        </pre>
+
+        <img src="./resources/sign.jpg" width="250" height="100">
+    </center>
+
+    <br>
+
+
+    <div class="fixedButton">
+
+        <button onclick="newQuote()" class="button">Don't try</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
